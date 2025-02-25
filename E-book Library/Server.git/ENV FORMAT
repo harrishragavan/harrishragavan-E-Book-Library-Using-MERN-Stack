@@ -1,0 +1,6 @@
+//CREATE .env FILE ACCORDING TO YOUR CODE:
+.env file sample:
+DB=mongodb://localhost:27017/loginDB
+PORT=8080
+JWTPRIVTEKEY="YOUR_KEY"
+SALT=10
