@@ -6,6 +6,7 @@ The E-Book Library is a full-stack web application built using the MERN stack (M
 
 
 Key Features:
+
 ✅ User Authentication – Secure login/signup using JWT authentication.
 
 ✅ Read Online – Integrated PDF viewer for reading books without downloads.
