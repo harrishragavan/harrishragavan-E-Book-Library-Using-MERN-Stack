@@ -19,3 +19,19 @@ LOGIN PAGE.....
 ![image](https://github.com/user-attachments/assets/3dfb587d-f02a-4022-8880-fe743264145b)
 MAIN INTERFACE.....
 
+
+
+
+
+
+// Routes
+app.get('/users', async (req, res) => {
+  const users = await User.find();
+  res.json(users);
+});
+
+app.post('/users', async (req, res) => {
+  const user = new User(req.body);
+  await user.save();
+  res.json(user);
+});
